@@ -64,8 +64,40 @@ SOURCES += main.cpp\
         imgtools/src/lib/jpegl/util.c \
         imgtools/src/lib/jpegl/huftable.c \
         imgtools/src/lib/jpegl/decoder.c \
-        imgtools/src/lib/jpegl/tableio.c \
+        imgtools/src/lib/jpegl/tableio.c 
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+        imgtools/include/usebsd.h \
+        imgtools/include/parsargs.h \ 
+        imgtools/include/dilate.h \
+        imgtools/include/imgutil.h \
+        imgtools/include/imgtype.h \
+        imgtools/include/display.h \
+        imgtools/include/wsq.h \
+        imgtools/include/jpegl.h \
+        imgtools/include/sunrast.h \
+        imgtools/include/jpeglsd4.h \
+        imgtools/include/imgboost.h \
+        imgtools/include/img_io.h \
+        imgtools/include/dataio.h \
+        imgtools/include/intrlv.h \
+        imgtools/include/computil.h \
+        imgtools/include/event.h \
+        imgtools/include/swap.h \
+        imgtools/include/grp4comp.h \
+        imgtools/include/bits.h \
+        imgtools/include/nistcom.h \
+        imgtools/include/grp4deco.h \
+        imgtools/include/findblob.h \
+        imgtools/include/bitmasks.h \
+        imgtools/include/rgb_ycc.h \
+        imgtools/include/masks.h \
+        imgtools/include/ihead.h \
+        imgtools/include/binops.h \
+        imgtools/include/dpy.h \
+        imgtools/include/jpegb.h \
+        imgtools/include/dpydepth.h \
+        imgtools/include/ioutil.h \
+        imgtools/include/imgdecod.h 
 
 FORMS    += mainwindow.ui
